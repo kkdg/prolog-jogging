@@ -10,5 +10,5 @@ is_daughter_of(hera, cronus).
 is_daughter_of(demeter, cronus).
 
 is_parent_of(Y, X) :- is_son_of(X, Y);
-		      i_daughter_of(X, Y).
+		      is_daughter_of(X, Y).
 
